@@ -1,0 +1,69 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Hola", "Hey", "Hello", "Hey bot"],
+         "responses": ["Hello,Dear Student!", "Hi nice to see you again", "Hi there, how can I help?","Greetings from Ruby-The Superbot"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye","Ok see you"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon.","It was nice talking to you bye"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours is the college open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open from Monday to Friday on 9am-6pm", "The office working hours are 9am-6pm on all working days"]
+        },
+        {"tag": "Fee",
+         "patterns": ["Can you tell me about the fee structure?", "What is the fee?", "How much do we have to pay?" ],
+         "responses": ["We have various fee structure depending upon the VITEE score or the State board score:\n 1.Rs.1,95,000(B.tech-Standard)\n 2.Rs.98,000(Integrated Mtech)\n 3.Rs.1,75,000(Non-Cse Branches)"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Is cash ok?" ],
+         "responses": ["Yes,we accept VISA, Mastercard and AMEX.", "We accept most major credit cards.","Yes,you can pay in cash","You can find the payments link in the Vtop if you are already a student or else our Bank information is:"]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open on week days from 9am-6pm", "Working hours are from 9am-6pm from Monday to Friday"]
+        },
+        {"tag": "Branches",
+         "patterns": ["What are the courses offered?", "Are there specilizations?", "How can I know what Engineering Streams are there?" ],
+         "responses": ["There are--B.tech Programmes: B.Tech Aerospace Engineering\n B.Tech Bioengineering\n B.Tech Computer Science & Engineering \n B.Tech Computer Science & Engineering (Artificial Intelligence & Machine Learning)\n B.Tech Computer Science & Engineering (Cyber Security & Digital Forensics)\n B.Tech Computer Science & Engineering (Cloud Computing & Automation)\n B.Tech Computer Science & Engineering (E-Commerce Technology)\n B.Tech Computer Science & Engineering (Education Technology)\n B.Tech Computer Science & Engineering (Gaming Technology)\n B.Tech Computer Science & Engineering (Health Informatics)\n B.Tech Electronics & Communication Engineering\n B.Tech Electronics & Communication Engineering (Artificial Intelligence & Cybernetics)\n B.Tech Mechanical Engineering\n B.Tech Mechanical Engineering (Artificial Intelligence & Robotics)\n 2.Architecture Programmes:\n B.Arch\n 3.Other UG Programmes:\n BBA (Bachelor of Business Administration)\n 4.Integrated PG Programmes (After 10+2):\n M.Tech Artificial Intelligence\n M.Tech Computer Science & Engineering (Cyber Security )\n M.Tech Computer Science & Engineering (Computational and Data Science)\n M.Sc. Biotechnology\n 5.PG Programmes:\n M.Tech Computer Science & Engineering (Cyber Security & Digital Forensics )\n M.Tech Artificial Intelligence & Data Science\n M.Tech VLSI Design\n MBA (Master of Business Administration)\n MCA (Master of Computer Applications)\n 6.Ph.D. Programmes: \n Engineering\n Sciences\n Business Studies\n Humanities \n For more information you can refer to the following url:vitbhopal.ac.in"]
+        },
+        {"tag": "Entrance",
+         "patterns": ["How to Join VITB","How can I get admission","What are the ways to get into VIT"],
+         "responses": ["You have to attend for the VITEE exam or based on JEE score you will be alloted the seat.","We appreciate your interest kindly attempt our VITEE examination or your JEE score can also be used."]
+        },
+        {"tag": "Counselling",
+         "patterns": ["When does counselling start","What is the fee for counselling","What is counselling","How can I apply for counselling","Where can I check my counselling status"],
+         "responses": ["Firstly congrats on making it till here! Now as per your request here are the norms of counselling:\n Counselling for VIT is a centralized schema.Basing on your rank and availabilty of seats you will be alloted in any one of the VIT branches. \n 1.Counselling is tentative to start after 2 weeks of announcement of results any changes will be intimated to the candidate\n 2. To apply for counselling you need to pay the fee of Inr.10,000 and is totally Non-refundable under any circumstances.  3.Once the counselling is done and you are alloted a seat if you wish to opt for other branch you will have to pay the fee again.\n NOTE:\n 1.All the information is contacted through the mail id submitted in the application.\n 2.After the counselling to confirm the seat half of the tution fee is to be paid within one week and is refundable before the commencement of the academic year."]
+        },
+        {"tag": "Contact",
+         "patterns": ["How can I contact?","Contact information","Contact Details","Contact address"],
+         "responses": ["VIT Bhopal University, \n Bhopal-Indore Highway Kothrikalan, \nSehore Madhya Pradesh – 466114 \n Phone: +91 75 6025 4500 / 501 / 502 \n E-mail: admissions@vitbhopal.ac.in" ]
+        },
+        {"tag": "College",
+         "patterns": ["Which branch is this?","What is the college","College details"],
+         "responses": ["This is VIT Bhopal","Welcome to VIT Bhopal","The India's first institute with 100% doctral facutly : VIT Bhopal."]
+        },
+        {"tag": "Mail",
+         "patterns": ["Can you please tell me the mail id?","What is the email address?","What is the college Mail?","How can I know the email address?"],
+         "responses": ["Our E-mail Id is: admissions@vitbhopal.ac.in "]
+        },
+        {"tag": "Call",
+         "patterns": ["Can you please tell me the contact number?","What is the phone number?","What is the office mobile number?","How can I contact through call?"],
+         "responses": ["Our Phone is: +91 75 6025 4500 / 501 / 502 ","Please feel free to call us at- +91 75 6025 4500 / 501 / 502"]
+        },
+        {"tag": "Social Media",
+        "patterns": ["What is the social handle?","Are there any social media handles?","What is the college social media handle?","Can I know the college social media accounts?"],
+        "responses": ["Yes sure! We are on the following social media platforms : \nLinkedIn:https://www.linkedin.com/company/vit-bhopal-university/?originalSubdomain=in \nTwitter:https://twitter.com/VITBhopal \nInstagram:https://www.instagram.com/vit.bhopal/ \nFacebook:https://www.facebook.com/VITUnivBhopal/ \nYoutube:https://www.youtube.com/channel/UCFJ1o0OgutcUvG3lOm70v_w"]
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "How can i call you", "Do you have a name","Are you a virtual assistant","Who are you"],
+         "responses": ["Hey there I am Ruby!", "My name is Ruby!", "Yes! my name is Ruby-The virtual assistant of VIT Bhopal Admissions department.","You can call me Ruby","YUHU! Myself Ruby "]
+        }   
+        
+   ]
+}
